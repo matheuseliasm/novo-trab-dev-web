@@ -56,7 +56,7 @@ a {
   font-size: 20px;
 }
 #header {
-  background-color: #bde9ef;
+  background-color: #ffffff;
 }
 #h2 {
     font-size: 24px;
@@ -70,9 +70,28 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-#brasil2 {
-    
+#introdução{
+  
+  font-size: 45px;
+  display: grid;
+  grid-auto-flow: 3fr 3fr 3fr 3fr; 
+  text-align: center;
 }
+#brasil2 > img {
+  right: 20PX;
+}
+.bloco-noticia{
+   max-width: 700px;
+   margin: auto;
+}
+.bloco-noticia > h1{
+  color: rgb(4, 0, 253);
+  font-size: 40px;
+}
+.bloco-noticia > p {
+  font-size: 20px;
+}
+
 .news-block {
     margin-top: 20px;
     border: 3px solid #000000;
@@ -85,5 +104,14 @@ a {
 .news-article {
   margin: 0;
   padding: 0;
+}
+.propaganda{
+  text-align: center;
+}
+
+.propaganda > img{
+  border-radius: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
