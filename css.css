@@ -1,6 +1,11 @@
 :root {
   background-color: var(--cor-fundo);
   --cor-fundo: #8c9bd4;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+h1{
+
 }
 
 .conteudo-total {
@@ -85,7 +90,7 @@ a {
   margin: auto;
 }
 .bloco-noticia > h1 {
-  color: rgb(4, 0, 253);
+  color: rgb(0, 0, 0);
   font-size: 40px;
 }
 .bloco-noticia > p {
@@ -105,7 +110,7 @@ a {
   box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .brasil2 > p {
-  text-align: center;
+  font-size: 40px   
 }
 .news-article {
   margin: 0;
@@ -121,6 +126,8 @@ a {
   padding-left: 30px;
 }
 .brasil2 > img {
+  display: grid;
+  grid-template-columns: max-content;
   text-align: end;
 }
 .propaganda1 > img{
@@ -128,5 +135,26 @@ a {
   margin-left: 600PX;
   border: 3px solid black;
   margin-top: 20px
-
 }
+.b2 > p { 
+  display: flex;
+  box-decoration-break: initial;
+  align-items: center;
+  font-size: 24px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  border: 1 px solid #000000;
+}
+.b2 > h1 {
+  font-size: 40px;
+}
+#text {
+  font-size: 40px;
+}
+.IMF > img {
+  border: solid black;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  margin-top: 20px;
+}
+
